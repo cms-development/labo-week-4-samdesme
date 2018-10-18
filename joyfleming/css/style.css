@@ -1,0 +1,75 @@
+/**
+ * This file will be overwritten when the Bootstrap Framework source files
+ * are compiled using the SASS CSS pre-processor.
+ */
+
+#page-content h2 a{
+    color: #50bcbc
+
+ }
+.menu--main{
+     float: right;
+
+ }
+
+ #navbar-collapse a{
+    color: #ffffff;
+ }
+ 
+
+ .navbar-default{
+    background: #2b2b2b;
+ }
+
+ .navbar-default .navbar-brand{
+    color: #50bcbc
+ }
+
+ #navbar {
+    margin-bottom: 10px;
+ }
+
+
+ #subheader{
+     margin-top: 10px;
+ }
+
+ #subheader p{
+    font-size: 1.5em;
+    line-height: 2em
+}
+ .menu--account {
+    margin-right: 0px
+ }
+
+ .list-inline {
+    margin-top: 10px
+ }
+
+ .list-inline li a{
+    color: #ffffff;
+ }
+
+ .list-inline li{
+     float: right;
+    padding: 5px 10px;
+    margin-left: 5px;
+    background: #d3d3d3;
+    border-radius: 20px
+}
+
+.field--name-field-tags{
+    display: block;
+    position: absolute;
+    bottom: 30;
+}
+
+#subRight{
+    width: 50%;
+    float: right;
+}
+
+#subLeft{
+    width: 50%;
+    float: left;
+}
