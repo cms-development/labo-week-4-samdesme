@@ -1,8 +1,70 @@
-// Default variables.
-@import "default-variables";
 
-// Bootstrap Framework.
-@import '../bootstrap/assets/stylesheets/bootstrap';
+$color_1: #50bcbc;
+$color_2: #ffffff;
+$color_3: #aaaaaa;
 
-// Base-theme overrides.
-@import 'overrides';
+
+#page-content {
+	h2 {
+		a {
+			color: $color_1;
+		}
+	}
+
+    footer{
+            color: $color_3;
+    }
+}
+.menu--main {
+	float: right;
+}
+#navbar-collapse {
+	a {
+		color: $color_2;
+	}
+}
+.navbar-default {
+	background: #2b2b2b;
+	.navbar-brand {
+		color: $color_1;
+	}
+}
+#navbar {
+	margin-bottom: 10px;
+}
+#subheader {
+	margin-top: 10px;
+	p {
+		font-size: 1.5em;
+		line-height: 2em;
+	}
+}
+.menu--account {
+	margin-right: 0px;
+}
+.list-inline {
+	margin-top: -30px;
+	li {
+		a {
+			color: $color_2;
+		}
+		float: right;
+		padding: 5px 10px;
+		margin-left: 5px;
+		background: #d3d3d3;
+		border-radius: 20px;
+	}
+}
+.field--name-field-tags {
+	display: block;
+	margin-top: 30px
+}
+#subRight {
+	width: 50%;
+	float: right;
+}
+#subLeft {
+	width: 50%;
+	float: left;
+}
+
